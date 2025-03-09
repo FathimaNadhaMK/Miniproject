@@ -1,0 +1,65 @@
+.weather-page {
+    text-align: center;
+    padding: 20px;
+  }
+  .weather-page h1, 
+.weather-page h2 {
+    color: black; /* Change this to your preferred color */
+    font-size: 44px; /* Adjust if needed */
+}
+
+  .weather-info {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .weather-icon {
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .forecast-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .forecast-card {
+    background: #e6e6fa;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100px;
+    font-size: 14px;
+  }
+  
+  .forecast-icon {
+    width: 40px;
+  }
+  
+  .back-button {
+    background: linear-gradient(45deg, #efeff2, #faf9fb);
+    color: white;
+    border: none;
+    width: auto; /* Let the width adjust dynamically based on text */
+    min-width: 180px; /* Ensure a reasonable size */
+    max-width: 350px; /* Prevent buttons from stretching too much */
+    padding: 8px 16px; /* Maintain good spacing */
+    border-radius: 12px; /* Less rounded for a cleaner look */
+    font-size: 34px;
+    
+  
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .back-button:hover {
+    background: linear-gradient(45deg, #5a4dbc, #8360db);
+  }
+  
